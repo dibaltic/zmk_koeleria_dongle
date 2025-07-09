@@ -1,0 +1,13 @@
+file_format: "1"
+id: koeleria
+name: koeleria
+type: shield
+url: https://github.com/dibaltic/zmk_koleria_dongle
+requires: [pro_micro]
+exposes: [nice_view]
+features:
+  - keys
+  - display
+siblings:
+  - koeleria_left
+  - koeleria_right
