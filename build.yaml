@@ -18,3 +18,23 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+
+include:
+  # -----------------------------------------
+  # Your other keyboard parts here
+  # -----------------------------------------
+  # Change the board appropriately, you can use any board
+  - board: nice_nano_v2
+    shield: koeleria_dongle nice_view_adapter  nice_view_gem
+  
+  - board: nice_nano_v2
+    shield: settings_reset
+    
+  # Add these cmake-args to the peripherals you wish to use with the dongle
+  - board: nice_nano_v2
+    shield: koeleria_left nice_view_adapter  nice_view_gem
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+
+  - board: nice_nano_v2
+    shield: koeleria_right nice_view_adapter  nice_view_gem
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n 
