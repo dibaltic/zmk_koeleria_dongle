@@ -1,8 +1,8 @@
 This is the firmware for [Koeleria keyboard](https://github.com/dibaltic/koeleria) if you would like to use the keyboard with a dongle. You will need an additional MCU to use as your dongle. The MCU doesn't need to be the same as what you are using on your keyboard, but should be one supported by [ZMK boards](https://zmk.dev/docs/hardware). For more information on dongles and their usage in ZMK please refer to the [docs](https://zmk.dev/docs/development/hardware-integration/dongle)
 
 ## Getting Started
-If you'd like to make your own firmware.
-[Here are the instructions to get started.](https://github.com/dibaltic/zmk_koeleria_dongle/blob/main/getting_started.md)
+If you'd like to make your own firmware,
+[here are the instructions to get started.](https://github.com/dibaltic/zmk_koeleria_dongle/blob/main/getting_started.md)
 
 Alternatively, to use my keymap as seen below you can download the firmware from the [latest action run](https://github.com/dibaltic/zmk_koeleria_dongle/actions). Refer to the [ZMK docs](https://zmk.dev/docs/user-setup#installing-the-firmware) to flash the firmware to your keyboard and dongle.
 
